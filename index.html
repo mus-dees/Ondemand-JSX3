@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Core metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Plans — HTML version</title>
+
+    <!-- Font loading: Inter from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Local page styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Small label shown at top of page -->
     <p class="page-label"><strong>HTML version</strong> — static markup</p>
+
+    <!-- Pricing cards wrapper -->
     <div class="cards-container">
+        <!-- Card 1: Hobby plan -->
         <div class="card">
             <div class="card-top">
                 <h3 class="card-title">Hobby</h3>
@@ -36,8 +45,11 @@
                     </ul>
                 </div>
             </div>
+            <!-- Secondary call-to-action -->
             <button class="download-button secondary">Download</button>
         </div>
+
+        <!-- Card 2: Pro plan -->
         <div class="card">
             <div class="card-top">
                 <h3 class="card-title">Pro</h3>
@@ -67,7 +79,42 @@
                     </ul>
                 </div>
             </div>
+            <!-- Primary call-to-action -->
             <button class="download-button primary">Get Pro</button>
+        </div>
+
+        <!-- Card 3: Enterpriese plan -->
+        <div class="card">
+            <div class="card-top">
+                <h3 class="card-title">Enterpriese</h3>
+                <p class="card-price">
+                    <span class="card-price-amount">$60</span>
+                    <span class="card-price-period">/mo.</span>
+                </p>
+                <div class="card-content">
+                    <p class="includes-text">Everything in Pro, plus:</p>
+                    <ul class="features-list">
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Dedicated support channel
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Advanced team permissions
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Priority background jobs
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            Account management support
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Primary call-to-action -->
+            <button class="download-button primary">Contact Sales</button>
         </div>
     </div>
 </body>
